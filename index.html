@@ -5,7 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIENVENIDO</title>
     <style>
-        body {
+        /* Logo en la esquina izquierda */
+        .logo-izquierda {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 70px;
+            height: auto;
+        }
+
+        /* Logo en la esquina derecha */
+        .logo-derecha {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 120px;
+            height: auto;
+        }
+
+        body { 
             background-color: #D3AB9E;
             margin: 0;
             height: 100vh;
@@ -43,7 +61,7 @@
             text-decoration: none;
             font-size: 1.2em;
             font-weight: bold;
-            padding: 10px 20px;
+            padding: 10px;
             border-radius: 5px;
         }
 
@@ -111,6 +129,12 @@
     </script>
 </head>
 <body>
+    <!-- Logo en la esquina izquierda -->
+    <img src="https://tse3.mm.bing.net/th?id=OIP.qz93QhMWPf3_epYEcM6fPAHaHa&pid=Api&P=0&h=180" alt="Logo Izquierda" class="logo-izquierda">
+
+    <!-- Logo en la esquina derecha -->
+    <img src="https://tse4.mm.bing.net/th?id=OIP.IfAuhSOmbJ-gXQpOqEDYwAAAAA&pid=Api&P=0&h=180" alt="Logo Derecha" class="logo-derecha">
+
     <!-- Título principal -->
     <h1>¡TECNOLOGICO DE ESTUDIOS SUPERIORES IXTAPALUCA!</h1>
 
@@ -121,7 +145,6 @@
         <a href="#" onclick="mostrarSeccion('marco_teorico')">Marco Teórico</a>
         <a href="#" onclick="mostrarSeccion('videos')">Videos</a>
     </nav>
-
     <!-- Sección Creadores -->
     <div id="creadores" class="seccion contenido">
         <h2>Creadores</h2>
@@ -150,54 +173,81 @@
     <div id="marco_teorico" class="seccion contenido">
         <h2>Marco Teórico</h2>
         <h3>Unidad 1: Introducción al Derecho</h3>
-        <p><strong>1.1 Concepto y propósito del Derecho:</strong> Conjunto de normas que regulan la conducta humana para garantizar justicia y orden social.</p>
-        <p><strong>1.2 Normas Jurídicas y Morales:</strong> Diferencia entre lo obligatorio y voluntario según su aplicación social o personal.</p>
-        <p><strong>1.3 Fuentes del Derecho:</strong> Orígenes como leyes, costumbres, y principios generales.</p>
-        <p><strong>1.4 Clasificación del Derecho:</strong> Derecho público, privado y social.</p>
+        <p><strong>1.1 Concepto y propósito del Derecho:</strong> El derecho es un sistema de normas jurídicas que regula la conducta humana en la sociedad, con el objetivo de garantizar la justicia, el orden y la paz social. Surge para evitar conflictos y proteger los derechos de las personas. Sus propósitos incluyen la resolución de controversias, la regulación de relaciones humanas y la protección de valores fundamentales como la libertad, la igualdad y la seguridad. Además, el derecho busca establecer límites claros para el ejercicio del poder, garantizando el respeto a los derechos humanos y promoviendo la convivencia armónica. El derecho también actúa como un instrumento para el cambio social, adaptándose a las necesidades y transformaciones de las sociedades.</p>
+        <p><strong>1.2 Normas Jurídicas y Morales:</strong> Las normas jurídicas son reglas de carácter obligatorio emitidas por una autoridad competente para regular el comportamiento social, con sanciones en caso de incumplimiento. Las normas morales, por otro lado, son reglas internas que regulan la conducta según principios éticos y conciencia personal, sin sanción legal, pero con impacto en la reputación. Las normas sociales son pautas culturales o de convivencia aceptadas colectivamente, como cortesía o etiqueta, cuyo incumplimiento genera desaprobación social. Aunque comparten el objetivo de regular la conducta, las normas jurídicas son coercitivas, mientras que las morales y sociales son voluntarias. Las tres interactúan, influyendo en el desarrollo de los valores de una sociedad.</p>
+        <p><strong>1.3 Fuentes del Derecho:</strong> Las fuentes del derecho son los orígenes de donde surgen las normas jurídicas. Estas se dividen en fuentes formales, reales e históricas. Las formales incluyen la legislación, la costumbre, la jurisprudencia, la doctrina y los principios generales del derecho. Las reales reflejan las necesidades y circunstancias sociales que impulsan la creación de normas, como los cambios económicos o culturales. Las históricas son documentos o textos legales del pasado que influyen en la creación de nuevas leyes. Estas fuentes son esenciales para garantizar la legitimidad y la eficacia del ordenamiento jurídico, permitiendo la adaptación del derecho a las dinámicas sociales.</p>
+        <p><strong>1.4 Clasificación del Derecho:</strong> El derecho se clasifica en dos grandes ramas: público y privado. El derecho público regula las relaciones entre el Estado y los ciudadanos, e incluye ramas como el derecho constitucional, administrativo, penal e internacional público. El derecho privado regula las relaciones entre particulares y comprende el derecho civil, mercantil y laboral. Otra clasificación incluye el derecho sustantivo, que establece derechos y obligaciones, y el derecho adjetivo o procesal, que regula los procedimientos para hacer valer los derechos. Esta clasificación permite un estudio organizado y especializado del derecho según su ámbito de aplicación y objetivos específicos.</p>
 
         <h3>Unidad 2: El Derecho y la Informática</h3>
-        <p><strong>2.1 La Sociedad de la Información:</strong> Impacto de las tecnologías en la comunicación y acceso a información global.</p>
-        <p><strong>2.2 Derecho Informático:</strong> Marco jurídico que regula la tecnología y su uso.</p>
-        <p><strong>2.3 Orígenes y Clasificación:</strong> Estudio de la evolución del Derecho Informático.</p>
-        <p><strong>2.4 Informática Jurídica:</strong> Uso de herramientas tecnológicas en actividades legales.</p>
+        <p><strong>2.1 La Sociedad de la Información:</strong> La sociedad de la información se refiere a un modelo social en el que la creación, distribución y uso de información se convierten en factores clave para el desarrollo económico, cultural y social. En esta sociedad, las tecnologías de la información y la comunicación (TIC) juegan un papel central, facilitando la interconexión global y la digitalización de procesos. Sin embargo, también plantea desafíos como la brecha digital, la protección de datos personales y los derechos de acceso a la información. Este concepto subraya la importancia de garantizar un marco normativo que promueva el acceso equitativo a la información y proteja los derechos de los usuarios.</p>
+        <p><strong>2.2 Derecho Informático:</strong> El derecho informático es una rama del derecho que regula los aspectos jurídicos relacionados con el uso de las tecnologías de la información y la comunicación (TIC). Su objetivo es garantizar la seguridad jurídica en el entorno digital, abarcando temas como la protección de datos personales, los delitos informáticos, la propiedad intelectual y los contratos electrónicos. Esta disciplina responde a la necesidad de adaptar el derecho tradicional a las nuevas realidades tecnológicas, promoviendo un uso ético y seguro de las TIC. También incluye la regulación del comercio electrónico, la privacidad y el acceso a la información en la era digital.</p>
+        <p><strong>2.3 Orígenes y Clasificación:</strong> El derecho informático tiene su origen en la revolución tecnológica y la expansión de las TIC durante el siglo XX. Se define como la rama del derecho que regula las actividades relacionadas con la informática y el uso de tecnologías digitales. Se clasifica en tres áreas principales: derecho de las TIC, que aborda aspectos legales de infraestructura tecnológica; derecho del ciberespacio, enfocado en delitos informáticos y privacidad; y derecho del comercio electrónico, que regula las transacciones digitales. Este campo es dinámico y evoluciona constantemente para adaptarse a las nuevas tecnologías y los desafíos legales que estas presentan.</p>
+        <p><strong>2.4 Informática Jurídica:</strong> La informática jurídica es la disciplina que aplica herramientas tecnológicas para optimizar los procesos legales y administrativos del derecho. Se divide en informática jurídica documental, que facilita la gestión de documentos legales mediante bases de datos; informática jurídica de gestión, enfocada en la administración de casos judiciales; e informática jurídica decisional, que utiliza inteligencia artificial para apoyar en la toma de decisiones legales. Su objetivo es modernizar el ejercicio del derecho, mejorar la accesibilidad y agilizar los procedimientos legales. También se utiliza en análisis de jurisprudencia, redacción de documentos y la implementación de plataformas de justicia digital.</p>
 
         <h3>Unidad 3: Derecho de la Información</h3>
-        <p><strong>3.1 Derecho de la Información:</strong> Protege acceso y uso ético de los datos personales.</p>
-        <p><strong>3.2 Problemas de Sistematización:</strong> Dificultades para organizar datos en un marco legal.</p>
-        <p><strong>3.3 Régimen Jurídico en México:</strong> Normas que regulan la información en el país.</p>
-        <p><strong>3.4 Marco Constitucional:</strong> Derechos garantizados por la Constitución relacionados con la información.</p>
-        <p><strong>3.5 Libertad de Expresión:</strong> Derecho a opinar sin restricciones.</p>
-        <p><strong>3.6 Derecho de Petición:</strong> Facultad de los ciudadanos para solicitar información a las autoridades.</p>
-        <p><strong>3.7 Telecomunicaciones:</strong> Infraestructura que soporta la transmisión de información.</p>
+        <p><strong>3.1 Derecho de la Información:</strong> El derecho de la información regula el acceso, la producción, la difusión y el uso de la información, protegiendo derechos fundamentales como la libertad de expresión y el derecho a la privacidad. Este campo abarca temas como la transparencia gubernamental, el acceso a datos públicos, la protección de datos personales y la regulación de los medios de comunicación. En la era digital, enfrenta nuevos desafíos, como la difusión de noticias falsas, la manipulación informativa y el uso indebido de datos personales. Su objetivo es garantizar un equilibrio entre la libertad informativa y la protección de derechos individuales.</p>
+        <p><strong>3.2 Problemas de Sistematización:</strong> La sistematización del derecho enfrenta problemas relacionados con la heterogeneidad de las fuentes legales y la evolución constante de las normas. En el contexto del derecho informático, los avances tecnológicos complican la creación de marcos jurídicos uniformes. La falta de armonización internacional, la obsolescencia de normas y la ausencia de consenso sobre terminología dificultan su integración. Además, la velocidad con que surgen nuevas tecnologías supera la capacidad de los legisladores para regularlas eficazmente. Es necesario desarrollar metodologías flexibles y adaptativas que permitan integrar las normativas tradicionales con las específicas del entorno digital.</p>
+        <p><strong>3.3 Régimen Jurídico en México:</strong> En México, el régimen jurídico de la información está fundamentado en la Constitución, que garantiza derechos como la libertad de expresión, el acceso a la información pública y la protección de datos personales. Instituciones como el INAI (Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales) regulan y supervisan el cumplimiento de estas garantías. Además, leyes como la Ley General de Transparencia y la Ley Federal de Protección de Datos Personales establecen lineamientos para el manejo y acceso a la información en el sector público y privado.</p>
+        <p><strong>3.4 Marco Constitucional:</strong> El marco constitucional establece los principios fundamentales que regulan la convivencia en una sociedad. En México, la Constitución Política es la norma suprema que organiza al Estado y protege derechos fundamentales como la libertad, la igualdad, y la seguridad jurídica. Incluye disposiciones sobre la estructura del gobierno, las garantías individuales y sociales, y la relación entre los poderes públicos. En el ámbito digital, el artículo 6° garantiza el acceso a la información y la protección de datos personales, mientras que el artículo 7° protege la libertad de prensa.</p>
+        <p><strong>3.5 Libertad de Expresión:</strong> La libertad de expresión es un derecho fundamental que permite a las personas manifestar ideas, opiniones y pensamientos sin censura previa, garantizando el pluralismo y la democracia. Está protegida en México por el artículo 6° y 7° constitucionales, que también establecen límites como el respeto a la vida privada y la moral pública. En la era digital, se enfrenta a nuevos desafíos como la regulación de contenidos en redes sociales, la lucha contra discursos de odio y la protección contra censura arbitraria por parte de plataformas tecnológicas.</p>
+        <p><strong>3.6 Derecho de Petición:</strong> El derecho de petición es una garantía individual que permite a cualquier persona solicitar información o emitir solicitudes a las autoridades públicas, quienes tienen la obligación de responder de manera adecuada y dentro de un plazo razonable. En México, está consagrado en el artículo 8° de la Constitución. Este derecho promueve la transparencia, la participación ciudadana y la rendición de cuentas, fortaleciendo la relación entre el gobierno y la ciudadanía. Es fundamental para asegurar el acceso a la información y la defensa de intereses legítimos en el ámbito público.</p>
+        <p><strong>3.7 Telecomunicaciones:</strong> Las telecomunicaciones son un conjunto de técnicas y tecnologías que permiten la transmisión de información a distancia mediante señales electromagnéticas. En México, están reguladas por el Instituto Federal de Telecomunicaciones (IFT) y leyes como la Ley Federal de Telecomunicaciones y Radiodifusión. Este sector es clave para garantizar el acceso a servicios de internet, telefonía y televisión. En el contexto jurídico, se abordan temas como la neutralidad de la red, la protección de datos, la competencia económica y la accesibilidad universal a las TIC.</p>
 
         <h3>Unidad 4: Propiedad Intelectual</h3>
-        <p><strong>4.1 Protección Jurídica:</strong> Salvaguarda software bajo derechos de autor.</p>
-        <p><strong>4.2 Implicaciones:</strong> Aspectos éticos y legales del uso de software.</p>
+        <p><strong>4.1 Protección Jurídica:</strong> La protección jurídica de los programas de cómputo se realiza a través del derecho de autor y la propiedad industrial. En México, la Ley Federal del Derecho de Autor reconoce los programas como obras literarias, otorgándoles derechos exclusivos sobre su reproducción, distribución y modificación. Además, se puede proteger su funcionalidad mediante patentes, aunque esto es menos común. Los desafíos incluyen el combate a la piratería, la protección contra el uso no autorizado y la regulación del software libre.</p>
+        <p><strong>4.2 Implicaciones:</strong> La criptografía es esencial para proteger la información en entornos digitales, garantizando confidencialidad, autenticidad e integridad de los datos. Su regulación abarca aspectos como la encriptación en comercio electrónico, seguridad nacional y protección de datos personales. En México, la Ley de Protección de Datos Personales y otras normativas contemplan su uso. Sin embargo, existen debates sobre su limitación para evitar abusos, como su empleo en actividades delictivas. Las normativas internacionales, como el Reglamento General de Protección de Datos (GDPR) en Europa, influyen en su implementación, promoviendo un equilibrio entre seguridad y privacidad.</p>
         <p><strong>4.3 Criptografía:</strong> Técnica para proteger información a través de cifrado.</p>
-        <p><strong>4.4 Propiedad Industrial:</strong> Protege patentes y marcas de software.</p>
-        <p><strong>4.5 Normatividad Internacional:</strong> Regulaciones globales sobre propiedad intelectual.</p>
+        <p><strong>4.4 Propiedad Industrial:</strong> Los programas de cómputo están protegidos tanto por el derecho de autor como, en algunos casos, por la propiedad industrial. El derecho de autor resguarda el código fuente y la estructura del software como una creación literaria. Por otro lado, la propiedad industrial protege aspectos como patentes sobre funcionalidades o procesos innovadores en el software. En México, estas protecciones están reguladas por la Ley Federal del Derecho de Autor y la Ley de Propiedad Industrial. El objetivo es incentivar la innovación y proteger los derechos de los desarrolladores frente a usos no autorizados.</p>
+        <p><strong>4.5 Normatividad Internacional:</strong> La normativa internacional en materia de tecnología y derecho informático está fundamentada en tratados y acuerdos globales como el Convenio de Budapest sobre Delitos Informáticos, que busca armonizar legislaciones para combatir el cibercrimen. También incluye acuerdos sobre propiedad intelectual, como los tratados de la OMPI, y regulaciones de protección de datos personales, como el Reglamento General de Protección de Datos (GDPR) en Europa. Estas normativas son esenciales para regular actividades transfronterizas y garantizar la cooperación entre países frente a desafíos globales en el ámbito digital.</p>
 
         <h3>Unidad 5: Contratos Informáticos</h3>
-        <p><strong>5.1 Concepto y Elementos:</strong> Acuerdos legales entre partes sobre tecnología.</p>
-        <p><strong>5.2 Clasificación:</strong> Tipos como licencias de software y outsourcing.</p>
-        <p><strong>5.3 Características Particulares:</strong> Flexibilidad y especificidad tecnológica.</p>
-        <p><strong>5.4 Partes:</strong> Roles como proveedor y usuario.</p>
-        <p><strong>5.5 Fraudes:</strong> Riesgos en la comercialización tecnológica.</p>
+        <p><strong>5.1 Concepto y Elementos:</strong> Los contratos informáticos son acuerdos jurídicos entre partes que establecen derechos y obligaciones en transacciones relacionadas con tecnologías de la información. Sus elementos incluyen el objeto (uso o desarrollo de software, servicios digitales), las partes (proveedores y usuarios), y las cláusulas, como confidencialidad, licencias, propiedad intelectual y resolución de conflictos. Estos contratos deben adaptarse a las particularidades del entorno digital, incluyendo términos sobre protección de datos, acceso remoto y seguridad cibernética.</p>
+        <p><strong>5.2 Clasificación:</strong> Los contratos informáticos se clasifican según su objeto en contratos de licencia de software, de servicios tecnológicos, de outsourcing, de desarrollo de software y de comercio electrónico. También se dividen según su modalidad, como contratos tradicionales adaptados al entorno digital o contratos electrónicos celebrados en línea. Cada tipo presenta particularidades específicas, como la regulación de los derechos de uso, la responsabilidad por fallos técnicos y los acuerdos de nivel de servicio (SLA)</p>
+        <p><strong>5.3 Características Particulares:</strong> Los contratos informáticos tienen características únicas, como la naturaleza intangible de su objeto (software o servicios digitales), el uso de medios electrónicos para su celebración y la inclusión de cláusulas específicas de tecnología. Estas características incluyen términos sobre actualizaciones, licencias, seguridad de datos y privacidad. Además, suelen incluir acuerdos de confidencialidad, límites de responsabilidad y resolución de disputas tecnológicas, lo que los diferencia de los contratos tradicionales.</p>
+        <p><strong>5.4 Partes:</strong> En los contratos informáticos intervienen principalmente dos partes: el proveedor, que puede ser un desarrollador, distribuidor o prestador de servicios tecnológicos, y el usuario o cliente, que adquiere derechos de uso o servicios. Otras partes pueden incluir intermediarios como plataformas de distribución o servicios en la nube. Cada parte tiene derechos y obligaciones específicos, como garantizar la funcionalidad del software o cumplir con los términos de uso y pago.</p>
+        <p><strong>5.5 Fraudes:</strong> Los fraudes en la comercialización de tecnología incluyen prácticas como la venta de software pirata, publicidad engañosa sobre funcionalidades, incumplimiento de garantías y clonación de hardware. También abarcan delitos como phishing en transacciones electrónicas. Estas prácticas generan pérdida de confianza en el mercado digital y perjuicios económicos. La legislación, como las leyes de protección al consumidor y las normativas de comercio electrónico, busca prevenir y sancionar estos fraudes, promoviendo la seguridad y transparencia en las transacciones tecnológicas.
+
+        </p>
 
         <h3>Unidad 6: Delitos Informáticos</h3>
         <p><strong>6.1 Concepto:</strong> Actos ilegales cometidos mediante tecnología.</p>
-        <p><strong>6.2 Clasificación:</strong> Hacking, robo de identidad, fraude digital, entre otros.</p>
-        <p><strong>6.3 Normatividad Nacional:</strong> Leyes mexicanas contra delitos informáticos.</p>
-        <p><strong>6.4 Normatividad Internacional:</strong> Tratados globales que regulan el cibercrimen.</p>
+        <p><strong>6.2 Clasificación:</strong> Los delitos informáticos se clasifican en:
+
+            Acceso no autorizado: hacking o intrusión a sistemas.
+            Fraude electrónico: robo de datos o dinero mediante engaños digitales.
+            Ciberacoso: intimidación o amenazas en línea.
+            Propagación de malware: creación o distribución de software dañino.
+            Suplantación de identidad: uso indebido de datos personales.
+            Delitos contra la propiedad intelectual: piratería de software o contenido digital.
+            Estos delitos son regulados por normativas nacionales e internacionales para combatir sus impactos.
+            </p>
+        <p><strong>6.3 Normatividad Nacional:</strong> En México, la normatividad nacional en delitos informáticos está regulada por el Código Penal Federal, que tipifica conductas como acceso ilícito a sistemas, fraudes electrónicos y sabotaje cibernético. Además, leyes como la Ley Federal de Protección de Datos Personales y la Ley de Propiedad Industrial abordan aspectos relacionados con la privacidad y la propiedad intelectual. Estas normativas buscan garantizar un marco legal que proteja a usuarios y empresas frente a los riesgos digitales.</p>
+        <p><strong>6.4 Normatividad Internacional:</strong> A nivel internacional, la normatividad sobre delitos informáticos incluye tratados como el Convenio de Budapest, que establece bases para combatir el cibercrimen, y acuerdos sobre protección de datos personales como el GDPR. Estas regulaciones buscan armonizar las legislaciones nacionales y fomentar la cooperación transfronteriza. También se incluyen normativas de comercio electrónico y propiedad intelectual, esenciales para regular el intercambio digital a nivel global.</p>
     </div>
 
     <!-- Sección Videos -->
-    <div id="videos" class="seccion contenido">
-        <h2>Videos de Estudiantes</h2>
-        <p>Pronto se añadirán videos realizados por los estudiantes.</p>
+    <!-- Sección Videos -->
+<div id="videos" class="seccion contenido">
+    <h2>Videos</h2>
+    <p>Estos son algunos videos que complementan el contenido del curso:</p>
+    <div class="video-container">
+        <p>Video 1: Delitos Informáticos</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JWMQOfDFtcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <p>Video 2: Protección Jurídica del Software en México</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zFggCKEPdAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <p>Video 3: Concepto de Derecho Informático</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1Al_ZALJoUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <p>Video 4: Contratos Informáticos</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nkjsduMiQ1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
     </div>
 
-    <!-- Botón para volver al inicio -->
-    <button class="boton-flotante" onclick="scrollToTop()">⬆</button>
+    <!-- Botón flotante para ir al inicio -->
+    <button class="boton-flotante" onclick="scrollToTop()">↑</button>
 </body>
 </html>
